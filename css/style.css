@@ -662,6 +662,12 @@ h6 {
   line-height: 1;
 }
 
+#research-area .icon img {
+  height: 36px;
+  width: 36px;
+  line-height: 1;
+}
+
 #research-area .title {
   font-weight: 700;
   margin-bottom: 15px;
@@ -785,21 +791,21 @@ h6 {
   font-size: 24px;
 }
 
-/* Portfolio Section
+/* blog Section
 --------------------------------*/
 
-#portfolio {
+#blog {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
+#blog #blog-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#blog #blog-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -811,33 +817,33 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#blog #blog-flters li:hover,
+#blog #blog-flters li.filter-active {
   color: #8e2726;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#blog #blog-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-item {
+#blog .blog-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap {
+#blog .blog-item .blog-wrap {
   overflow: hidden;
   position: relative;
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover img {
+#blog .blog-item .blog-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info {
+#blog .blog-item .blog-wrap .blog-info {
   position: absolute;
   top: 0;
   right: 0;
@@ -865,7 +871,7 @@ h6 {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+#blog .blog-item .blog-wrap .blog-info h4 {
   font-size: 22px;
   line-height: 1px;
   font-weight: 700;
@@ -873,15 +879,15 @@ h6 {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
+#blog .blog-item .blog-wrap .blog-info h4 a {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+#blog .blog-item .blog-wrap .blog-info h4 a:hover {
   color: #8e2726;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+#blog .blog-item .blog-wrap .blog-info p {
   padding: 0;
   margin: 0;
   color: #f8fcff;
@@ -890,8 +896,8 @@ h6 {
   text-transform: uppercase;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#blog .blog-item .blog-wrap .blog-info .link-preview,
+#blog .blog-item .blog-wrap .blog-info .link-details {
   display: inline-block;
   line-height: 1;
   text-align: center;
@@ -902,50 +908,50 @@ h6 {
   margin: 10px 4px 0 4px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#blog .blog-item .blog-wrap .blog-info .link-preview i,
+#blog .blog-item .blog-wrap .blog-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+#blog .blog-item .blog-wrap .blog-info .link-preview:hover,
+#blog .blog-item .blog-wrap .blog-info .link-details:hover {
   background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#blog .blog-item .blog-wrap .blog-info .link-preview:hover i,
+#blog .blog-item .blog-wrap .blog-info .link-details:hover i {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover {
+#blog .blog-item .blog-wrap:hover {
   background: #282646;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+#blog .blog-item .blog-wrap:hover .blog-info {
   opacity: 1;
 }
 
-/* Testimonials Section
+/* publications Section
 --------------------------------*/
 
-#testimonials {
+#publications {
   padding: 60px 0;
 }
 
-#testimonials .section-header {
+#publications .section-header {
   margin-bottom: 40px;
 }
 
-#testimonials .testimonial-item .testimonial-img {
+#publications .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   float: left;
 }
 
-#testimonials .testimonial-item h3 {
+#publications .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -953,25 +959,25 @@ h6 {
   margin-left: 140px;
 }
 
-#testimonials .testimonial-item h4 {
+#publications .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 15px 0;
   margin-left: 140px;
 }
 
-#testimonials .testimonial-item p {
+#publications .testimonial-item p {
   font-style: italic;
   margin: 0 0 15px 140px;
 }
 
-#testimonials .owl-nav,
-#testimonials .owl-dots {
+#publications .owl-nav,
+#publications .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#testimonials .owl-dot {
+#publications .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -980,7 +986,7 @@ h6 {
   background-color: #ddd;
 }
 
-#testimonials .owl-dot.active {
+#publications .owl-dot.active {
   background-color: #8e2726;
 }
 
@@ -1288,6 +1294,14 @@ h6 {
   text-transform: uppercase;
 }
 
+#footer .footer-top .footer-info h3 img {
+  display: inline-block;
+  height: 34px;
+  width: auto;
+
+
+}
+
 #footer .footer-top .footer-info p {
   font-size: 13px;
   line-height: 24px;
@@ -1518,7 +1532,7 @@ h6 {
     padding-top: 80px;
   }
 
-  #testimonials .testimonial-item p {
+  #publications .testimonial-item p {
     width: 80%;
   }
 }
@@ -1593,18 +1607,18 @@ h6 {
     width: 100%;
   }
 
-  #testimonials .testimonial-item {
+  #publications .testimonial-item {
     text-align: center;
   }
 
-  #testimonials .testimonial-item .testimonial-img {
+  #publications .testimonial-item .testimonial-img {
     float: none;
     margin: auto;
   }
 
-  #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
-  #testimonials .testimonial-item p {
+  #publications .testimonial-item h3,
+  #publications .testimonial-item h4,
+  #publications .testimonial-item p {
     margin-left: 0;
   }
 }
@@ -1616,3 +1630,61 @@ h6 {
 }
 
 /*============================*/
+
+/* bib-publication-list styles
+-------------------------------------------------- */
+span.undefined { color:red; }
+.bibtable {width: auto 100%; height: auto scroll; margin: 0 auto; clear: both;}
+.bibchart { width: 100%; height: 100px; margin-bottom: 20px;}
+.clear {clear:both;}
+.year { position: relative; height: 100%; border-bottom: 1px solid black; display: inline-block;}
+.yearlabel { position: absolute; bottom: -20px; text-align: center; width: 100%; font-size: smaller;}
+.pub { border: 1px solid white; background-color: #eee; }
+.inproceedings { background-color: #ccf; }
+.article { background-color: #beb; }
+.inbook { background-color: #eaa; }
+.phdthesis { background-color: #999; }
+.unpublished { background-color: #eae; }
+.mastersthesis { background-color: #eea; }
+.techreport { background-color: #b77; }
+.proceedings { background-color: #9494ff; }
+.book { background-color: #ed7878; }
+.legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
+.legend { margin-bottom: 24px; text-align: center; width: 100%;}
+table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; border-top: 1px solid black; font-weight: bold; cursor: pointer; cursor: hand; }
+table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
+table.display td { padding: 20px 10px; }
+table.display td.center { text-align: center; }
+table.display { margin-top: 24px; }
+.sorting_asc { background: url('lib/images/sort_asc.png') no-repeat center right; }
+.sorting_desc { background: url('lib/images/sort_desc.png') no-repeat center right; }
+.sorting { background: url('lib/images/sort_both.png') no-repeat center right; }
+.sorting_asc_disabled { background: url('lib/images/sort_asc_disabled.png') no-repeat center right; }
+.sorting_desc_disabled { background: url('lib/images/sort_desc_disabled.png') no-repeat center right; }
+tr.odd { background-color: #eee; }
+tr.even { background-color: white; }
+div.hidden { display: none;}
+div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-color: #bbb; border: 3px solid #fff; padding: 10px; z-index: 10000;}
+#shutter { background-color: #555; opacity: 0.7; width:100%; height: 100%; position: fixed; top: 0; left:0; z-index: 20;}
+a.bibclose {
+  background-color: #BBBBBB;
+  border: 3px solid #FFFFFF;
+  color: black;
+  float: left;
+  font-size: 10px;
+  height: 25px;
+  padding: 3px;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 25px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  -o-border-radius:15px;
+  border-radius:15px;
+  top: -20px;
+  left: -20px;
+}
+div.bibinfo pre { clear:both; }
+

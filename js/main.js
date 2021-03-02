@@ -100,19 +100,19 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function () {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item'
+    var blogIsotope = $('.blog-container').isotope({
+      itemSelector: '.blog-item'
     });
-    $('#portfolio-flters li').on( 'click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#blog-flters li').on( 'click', function() {
+      $("#blog-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
   
-      portfolioIsotope.isotope({ filter: $(this).data('filter') });
+      blogIsotope.isotope({ filter: $(this).data('filter') });
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  // publications carousel (uses the Owl Carousel library)
+  $(".publications-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
