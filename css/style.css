@@ -1220,6 +1220,10 @@ h6 {
   overflow: hidden;
 }
 
+#faq-list p {
+  text-align: justify;
+}
+
 #faq #faq-list {
   padding: 0;
   list-style: none;

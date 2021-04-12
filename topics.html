@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rapid Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#intro" class="scrollto"><img src="img/logo-sm.png" alt="LuxWAyS Logo" /></a></h1>
+        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="index.html#about">The Project</a></li>
+          <li><a href="index.html#join-us">Join Us</a></li>
+          <li class="active"><a href="index.html#research-area">Research area</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section style="height: 200px;" id="intro" class="clearfix">
+    <div class="row" class="">
+      <div style="padding-top: 100px;" class="col-md-12 align-center">
+        <br>
+        <div class='row' style="height: 75px; line-height: 75px; padding-left: 20px; background: #8e2726;" class='container'>
+        </div>
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+    <section id="faq">
+      <div class="container">
+        <header class="section-header">
+          <h3>Privacy-Preserving</h3>
+        </header>
+
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Privacy-preserving Publication of Geo-social Network Data <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <div>
+                <a href=""><i class="ion-android-download"></i> TELECHARGER LE FICHIER</a>
+              </div>
+              <p>Nowadays, various types of online social networks (OSN) have attracted billions of users by providing them a platform to present themselves, articulate their social circles and interact with each other, etc. This unique service makes OSNs stand out among other online services and as a consequence provides OSN owners with an unprecedented collection of diverse data. Especially, with the pervasive use of smart phones users can post new types of information, e.g., photos and videos. Thanks to GPS chips equipped, these posts can be labelled with locations and time indicating where and when they are taken. In addition, people can also share locations by publishing running tracks, posting check-ins or querying information customised to where they are (e.g., nearby friends). These location sharing social networks are usually called geo-social networks.</p>
+
+              <p>Geo-social networks attract special interest from researchers as they collect both users' connections and their locations. More importantly, the spatio-temporal points, composed of locations and the sharing time, encode users' activities. A location posted on Sunday morning lying in a catholic church indicates the owner is at a religious service and is likely to be catholic. Analysis on users' social connections and locations on geo-social networks has produced abundant useful information. User connections are exploited to extract global statistics, (e.g., degree distribution, subgraph counts), and study human behaviours (e.g., communities and information diffusion patterns). Existing works have successfully used locations to infer users' regular daily activities, recommend friends and suggest trips for tourists.</p>
+
+              <p>In this project, we focus on these two types of data. One is social graph, with nodes representing users and edges representing their relations. The other one consists of all posted locations by users. When a user posts a location, an edge will be created and labeled with the posting time. As users keep posting locations, we have a set of spatio-temporal points for every user, which records a trace of his chronologically ordered activities. Therefore, we model a geo-social network as a social graph with a sequence of spatio-temporal points associated with every node and call it a geo-social graph.</p>
+
+              <p>The great benefits of analysis on geo-social networks make it necessary for the owners to publish more data. However, the access is still restricted for research due to the sensitivity nature of locations and social connections. Publishing them without proper protection will raise privacy concerns. Many privacy-preserving methods have thus been proposed to publish social graphs (e.g., by editing edges or synthesising graphs) and locations (e.g., obfuscation, perturbation). Recent studies illustrate that locations of two users are correlated with their friendship. Locations can be used to predict friends based on the intuition that people visiting places with similar semantics (e.g., sports centre, concerts), are more likely to be friends. Meanwhile, we can also infer a user's visited places given his friends' locations. For simplicity, we call the correlation. We notice that the correlation can also be exploited by attackers to refine their inference of sensitive information even on geo-social networks anonymised by existing privacy preserving methods. We exemplify the risk in the following. Given a social network, we anonymise the social graph by adding/removing edges to ensure that for each node, there exist at least another k-1 nodes with the same degree (i.e., k-degree anonymity) and obfuscate locations of each node into reasonably large areas. By observing the obfuscated areas of two connected nodes are overlapped neither geographically nor semantically, the attacker can decide this edge is likely to be a fake one. Similarly, the edges removed can also be recovered when two users visited places with similar semantics. The original social graph can thus be reconstructed.</p>
+
+              <p>We can see that existing methods fail to protect privacy because they treat locations and social graphs independently and ignore their correlation. Meanwhile, the correlation should be preserved as it is useful for many other applications. To the best of our knowledge, no work exists to anonymise a geo-social network as a geo-social graph. In this thesis project, we aim to develop privacy preserving methods and tools for geo-social network owners to publish anonymised geo-social graphs. More specifically, the anonymised graphs should protect user privacy, e.g., no users can be re-identified.  Moreover, they should remain useful for future analysis by preserving three types of features of the original graph: i) social graph's structure features, e.g., degree distributions; ii) posted locations' global features (e.g., popularity of locations) and consistency of an individual user's locations with real persons; iii) the geo-social correlation. </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- #faq -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                  <div class="footer-info">
+                    <h3>
+                      <img src="img/logo-sm.png" alt="LuxWAyS Logo" />
+                    </h3>
+                    <p>Luxembourg/West-Atrica Lab for Higher Education Capacity Building in CyberSecurity and Emerging Topics in ICT4Dev - <strong>A cybersecurity growth project in west africa</strong>
+
+                    </p>
+                  </div>
+
+                  <div class="footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>In order to stay informed about the progress of the project, our recruitments..., subscribe to our newsletter using your email address by using the form below.</p>
+                    <form action="" method="post">
+                      <input placeholder="your email here" type="email" name="email"><input type="submit"  value="Subscribe">
+                    </form>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><a href="#about">The Project</a></li>
+                      <li><a href="#join-us">Join Us</a></li>
+                      <li><a href="#research-area">Research Area</a></li>
+                      <li><a href="#">Terms of service</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <p>
+                      Campus Kirchberg, <br>
+                      Université du Luxembourg <br>
+                      6, rue Richard Coudenhove-Kalergi <br>
+                      L-1359 Luxembourg <br>
+                      <strong>Phone:</strong> +352 xxx xxx xxx<br>
+                      <strong>Email:</strong> luxways@uni.lu<br>
+                    </p>
+                  </div>
+
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  </div>
+
+                </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="form">
+              
+              <h4>Send us a message</h4>
+              <p>Send us a message</p>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Luxways</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+        -->
+        Template by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/baffle.min.js"></script>
+  <script src="lib/bibtex.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script src="js/additional.js"></script>
+
+</body>
+</html>
