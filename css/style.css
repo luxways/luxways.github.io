@@ -21,14 +21,14 @@ body {
 }
 
 a {
-  color: #8e2726;
+  color: #0088C0;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #713739;
+  color: #0088C0;
   outline: none;
   text-decoration: none;
 }
@@ -55,7 +55,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #8e2726;
+  background: #0088C0;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -93,7 +93,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #8e2726;
+  border-top: 6px solid #0088C0;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -147,7 +147,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #topbar .social-links a:first-child {
@@ -203,8 +203,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 0;
+  max-height: 40px;
 }
 
 .main-pages {
@@ -232,10 +232,10 @@ h6 {
 
 #intro img {
   display: block;
-  width: 90%;
+  width: 80%;
   height: auto;
   margin: auto;
-  margin-top: 12%;
+  margin-top: 10%;
 }
 
 #intro #keywords {
@@ -257,7 +257,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #intro .intro-info .btn-get-started,
@@ -272,13 +272,13 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #8e2726;
+  background: #0088C0;
   color: #fff;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-research-area:hover {
-  background: #713739;
+  background: #0088C0;
 }
 
 /*--------------------------------------------------------------
@@ -320,7 +320,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #8e2726;
+  color: #0088C0;
   text-decoration: none;
 }
 
@@ -360,7 +360,7 @@ h6 {
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 .main-nav .drop-down > a:after {
@@ -562,12 +562,13 @@ h6 {
 
 #about .about-content ul li {
   padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #about .about-img {
@@ -611,8 +612,13 @@ h6 {
   transition: .5s;
 }
 
-#about .about-partners {
+#about .about-partners div {
+  text-align: center !important;
+}
 
+.partner-block {
+  border: 1px #eee solid;
+  padding-bottom: 40px;
 }
 
 #about .about-partners img {
@@ -621,6 +627,7 @@ h6 {
   height: 100px;
   width: auto;
   margin: auto;
+  text-align: center;
 }
 
 /* research-area Section
@@ -679,7 +686,7 @@ h6 {
 }
 
 #research-area .box:hover .title a {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #research-area .description {
@@ -775,8 +782,8 @@ h6 {
 }
 
 #join-us .cta-btn:hover {
-  background: #8e2726;
-  border: 3px solid #8e2726;
+  background: #0088C0;
+  border: 3px solid #0088C0;
 }
 
 /* Features Section
@@ -819,7 +826,7 @@ h6 {
 
 #blog #blog-flters li:hover,
 #blog #blog-flters li.filter-active {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #blog #blog-flters li:last-child {
@@ -884,7 +891,7 @@ h6 {
 }
 
 #blog .blog-item .blog-wrap .blog-info h4 a:hover {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #blog .blog-item .blog-wrap .blog-info p {
@@ -903,7 +910,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #8e2726;
+  background: #0088C0;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -987,7 +994,7 @@ h6 {
 }
 
 #publications .owl-dot.active {
-  background-color: #8e2726;
+  background-color: #0088C0;
 }
 
 /* Team Section
@@ -1064,7 +1071,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #team .member .social i {
@@ -1106,7 +1113,7 @@ h6 {
 }
 
 #clients .owl-dot.active {
-  background-color: #8e2726;
+  background-color: #0088C0;
 }
 
 /* Pricing Section
@@ -1132,7 +1139,7 @@ h6 {
   left: 0;
   width: 0%;
   height: 5px;
-  background-color: #8e2726;
+  background-color: #0088C0;
   transition: 0.5s;
 }
 
@@ -1204,12 +1211,12 @@ h6 {
   letter-spacing: 1px;
   border-radius: 3px;
   display: inline-block;
-  background: #8e2726;
+  background: #0088C0;
   color: #fff;
 }
 
 #pricing .card .btn:hover {
-  background: #713739;
+  background: #0088C0;
 }
 
 /* Frequently Asked Questions Section
@@ -1256,7 +1263,7 @@ h6 {
 }
 
 #faq #faq-list a.collapse {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #faq #faq-list a.collapsed {
@@ -1300,7 +1307,7 @@ h6 {
 
 #footer .footer-top .footer-info h3 img {
   display: inline-block;
-  height: 34px;
+  height: 40px;
   width: auto;
 
 
@@ -1317,7 +1324,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #8e2726;
+  background: #0088C0;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1330,7 +1337,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #713739;
+  background: #0088C0;
   color: #fff;
 }
 
@@ -1366,7 +1373,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #footer .footer-top .footer-contact {
@@ -1389,8 +1396,8 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #8e2726;
-  border: 1px solid #8e2726;
+  background: #0088C0;
+  border: 1px solid #0088C0;
   width: 35%;
   padding: 6px 0;
   text-align: center;
@@ -1400,7 +1407,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #713739;
+  background: #0088C0;
 }
 
 #footer .footer-top .form .form-group {
@@ -1409,7 +1416,7 @@ h6 {
 
 #footer .footer-top .form #sendmessage {
   color: #fff;
-  background: #8e2726;
+  background: #0088C0;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1475,7 +1482,7 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-  background: #8e2726;
+  background: #0088C0;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
@@ -1484,7 +1491,7 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  background: #713739;
+  background: #0088C0;
   cursor: pointer;
 }
 
@@ -1503,11 +1510,11 @@ h6 {
 }
 
 #footer .credits a {
-  color: #8e2726;
+  color: #0088C0;
 }
 
 #footer .credits a:hover {
-  color: #713739;
+  color: #0088C0;
 }
 
 /*--------------------------------------------------------------
